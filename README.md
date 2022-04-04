@@ -2,7 +2,7 @@
 N Queens problem solved in lua using AI strategies such as BFS, IDS, A*, Hill climbing and Genitc algorithm
 
 **Functions:**
-  **BFS, IDS, A:***
+  **BFS, IDS, A:**
   is_Safe(column, row, board):
     check if a given queen can be attacked from any queen in a given board 
   Goal_test(node):
@@ -24,7 +24,7 @@ N Queens problem solved in lua using AI strategies such as BFS, IDS, A*, Hill cl
     print_board(Qs):
     Prints a given board used for visualization or end results (has a 0.06sec delay for good visuals )
     
-    **Hill climbing, Genitc algorithm:**
+  **Hill climbing, Genitc algorithm:**
   is_Safe(column, row, board):
     check if a given queen can be attacked from any queen in a given board 
   Goal_test(node):
